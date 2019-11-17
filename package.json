@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+//https://github.com/WaylandWong/timestamp-convert.git"
   },
   "keywords": [
     "Electron",
@@ -48,8 +48,8 @@
     "electron-builder": "^22.1.0"
   },
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/WaylandWong/timestamp-convert/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/WaylandWong/timestamp-convert",
   "dependencies": {}
 }
