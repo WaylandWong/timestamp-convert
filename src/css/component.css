@@ -1,0 +1,51 @@
+body {
+	background: rgb(54, 53, 53);
+	color: #404d5b;
+	font-weight: 500;
+	font-size: 2.5em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+.bgcolor { background: #2f3238; color: #521e18; }
+
+.input {
+	padding: 0.1em;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.input__field {
+	display: block;
+	float: left;
+	border: none;
+	border-radius: 0;
+	font-weight: bold;
+	font-size: 70%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-appearance: none;
+	top: 0;
+	width: 45%;
+	height: 100%;
+	background: rgb(54, 53, 53);
+	color: rgb(195, 203, 213);
+}
+
+.input__field:focus {
+	outline: none;
+}
+
+/* Kaede */
+.input--kaede {
+	display: block;
+	overflow: hidden;
+	background: rgb(54, 53, 53);
+}
+
+.img{
+	padding: 0 0.2em 0 0;
+	float: left;
+	z-index: 10;
+	width: 5%;
+}
