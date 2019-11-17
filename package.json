@@ -10,7 +10,7 @@
     "dist": "electron-builder -mwl"
   },
   "build": {
-    "productName":"timestamp-convert",
+    "productName": "timestamp-convert",
     "appId": "timestamp-convert",
     "asar": false,
     "directories": {
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+//https://github.com/WaylandWong/timestamp-convert.git"
+    "url": "git+https://github.com/WaylandWong/timestamp-convert.git"
   },
   "keywords": [
     "Electron",
@@ -51,5 +51,7 @@
     "url": "https://github.com/WaylandWong/timestamp-convert/issues"
   },
   "homepage": "https://github.com/WaylandWong/timestamp-convert",
-  "dependencies": {}
+  "dependencies": {
+    "update-electron-app": "^1.5.0"
+  }
 }
