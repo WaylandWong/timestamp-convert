@@ -16,6 +16,10 @@
     "directories": {
       "output": "build"
     },
+    "publish":{
+      "provider":"github",
+      "releaseType":"release"
+    },
     "mac": {
       "icon": "./assets/timestamp.png",
       "artifactName": "${productName}_setup_${version}.${ext}",
@@ -30,7 +34,6 @@
       "artifactName": "${productName}_setup_${version}.${ext}"
     }
   },
-  "repository": "github:WaylandWong/timestamp-convert",
   "keywords": [
     "Electron",
     "quick",
