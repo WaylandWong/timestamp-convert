@@ -9,7 +9,8 @@ jobs:
     # Platforms to build on/for
     strategy:
       matrix:
-        os: [macos-10.14, windows-2019, ubuntu-18.04]
+        # os: [macos-10.14, windows-2019, ubuntu-18.04]
+        os: [macos-10.14, windows-2019]
 
     steps:
       - name: Check out Git repository
@@ -20,11 +21,6 @@ jobs:
         with:
           node-version: 10
 
-      - name: Install Snapcraft
-        uses: samuelmeuli/action-snapcraft@v1
-        with:
-          # Log in to Snap Store
-          snapcraft_token: ${{ secrets.snapcraft_token }}
 
       - name: Build/release Electron app
         uses: samuelmeuli/action-electron-builder@v1.0.0
