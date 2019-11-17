@@ -16,8 +16,8 @@
     "directories": {
       "output": "build"
     },
-    "publish":{
-      "provider":"github",
+    "publish": {
+      "provider": "github",
       "releaseType": "release"
     },
     "mac": {
