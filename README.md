@@ -10,6 +10,7 @@
 
 ## TODO
 
+* automatic starting
 * support ubuntu auto build
 * sign code officially
 * auto convert date string to timestamp
