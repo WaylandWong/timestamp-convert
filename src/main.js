@@ -19,7 +19,6 @@ function createWindow () {
     transparent: false,
     center:true,
     resizable:false,
-    movable:false,
     alwaysOnTop: true,
     skipTaskbar: false,
     icon: path.join(__dirname, '../assets/timestamp.ico')

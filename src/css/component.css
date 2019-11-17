@@ -4,6 +4,7 @@ body {
 	font-weight: 500;
 	font-size: 2.5em;
 	font-family: 'Raleway', Arial, sans-serif;
+	-webkit-app-region: drag;
 }
 
 .bgcolor { background: #2f3238; color: #521e18; }
@@ -38,9 +39,9 @@ body {
 
 /* Kaede */
 .input--kaede {
+	-webkit-app-region: drag;
 	display: block;
 	overflow: hidden;
-	background: rgb(54, 53, 53);
 }
 
 .img{
