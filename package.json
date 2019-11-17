@@ -18,7 +18,7 @@
     },
     "publish":{
       "provider":"github",
-      "releaseType":"release"
+      "releaseType": "release"
     },
     "mac": {
       "icon": "./assets/timestamp.png",
