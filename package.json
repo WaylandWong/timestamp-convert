@@ -8,10 +8,11 @@
     "start": "electron .",
     "postinstall": "electron-builder install-app-deps",
     "pack": "electron-builder -mwl --dir",
-    "dist": "electron-builder -mwl"
+    "dist": "electron-builder -mwl",
+    "distm": "electron-builder -m"
   },
   "build": {
-    "productName": "timestamp-convert",
+    "productName": "timestamp convert",
     "appId": "timestamp-convert",
     "asar": false,
     "directories": {

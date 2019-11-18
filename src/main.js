@@ -54,7 +54,6 @@ function createWindow () {
 
   ipcMain.on('esc',(event,message)=>{
     if (mainWindow.isVisible()){
-      app.dock.hide()
       mainWindow.hide()
     }
   })
@@ -64,7 +63,7 @@ function createWindow () {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
-  // app.dock.hide()
+  // Menu.setApplicationMenu(null)
 
   createWindow()
 
@@ -74,7 +73,9 @@ app.on('ready', () => {
       mainWindow.show()
     }
   })
-  // require('update-electron-app')()
+
+  app.dock.hide()
+  mainWindow.show()
 })
 
 // Quit when all windows are closed.
@@ -115,3 +116,8 @@ app.on('activate', function () {
 //   console.error('There was a problem updating the application')
 //   console.error(message)
 // })
+
+//info
+app.setAboutPanelOptions({
+  "website":"https://github.com/WaylandWong/timestamp-convert"
+})
