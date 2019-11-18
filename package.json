@@ -1,5 +1,5 @@
 {
-  "name": "timestamp convert",
+  "name": "timestamp-convert",
   "version": "1.0.0",
   "description": "A Electron application convert timestamp to datetime loacle string",
   "repository": "github:WaylandWong/timestamp-convert",
@@ -11,8 +11,8 @@
     "dist": "electron-builder -mwl"
   },
   "build": {
-    "productName": "timestamp convert",
-    "appId": "timestamp convert",
+    "productName": "timestamp-convert",
+    "appId": "timestamp-convert",
     "asar": false,
     "directories": {
       "output": "build"
