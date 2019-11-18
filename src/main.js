@@ -1,6 +1,5 @@
 // Modules to control application life and create native browser window
-require('update-electron-app')()
-const {app, BrowserWindow,Menu,MenuItem,globalShortcut,ipcMain} = require('electron')
+const {app, BrowserWindow,Menu,globalShortcut,ipcMain,autoUpdater} = require('electron')
 const path = require('path')
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -75,6 +74,7 @@ app.on('ready', () => {
       mainWindow.show()
     }
   })
+  require('update-electron-app')()
 })
 
 // Quit when all windows are closed.
