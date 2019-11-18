@@ -74,7 +74,7 @@ app.on('ready', () => {
       mainWindow.show()
     }
   })
-  require('update-electron-app')()
+  // require('update-electron-app')()
 })
 
 // Quit when all windows are closed.
