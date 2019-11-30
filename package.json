@@ -47,7 +47,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^7.1.1",
-    "electron-builder": "^22.1.0"
+    "electron-builder": "^22.1.0",
+    "eslint": "^6.7.1"
   },
   "bugs": {
     "url": "https://github.com/WaylandWong/timestamp-convert/issues"
