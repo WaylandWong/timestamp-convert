@@ -4,7 +4,7 @@ body {
 	font-weight: 500;
 	font-size: 2.5em;
 	font-family: 'Raleway', Arial, sans-serif;
-	-webkit-app-region: drag;
+	/* -webkit-app-region: drag; */
 }
 
 .bgcolor { background: #2f3238; color: #521e18; }

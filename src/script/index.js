@@ -18,7 +18,7 @@ function onFocus() {
     input.value = Date.now();
   }
   select();
-  valueChange();
+  inputValueChange();
 }
 
 /**
@@ -30,24 +30,45 @@ function select() {
 
 /**
  *
+ * @param {*} timstamp
  */
-function valueChange() {
+function setOutputValue(timstamp) {
+  value = getTimeStr(timstamp);
+  output.value = value;
+  input.title = value;
+}
+/**
+ *
+ */
+function inputValueChange() {
   value = input.value;
   if (value.length == 10) {
     try {
       const timstamp = Number(value);
-      output.value=getTimeStr(timstamp*1000);
-    } catch (err) {
-    }
+      setOutputValue(timstamp*1000);
+    } catch (err) {}
   } else if (value.length == 13) {
     try {
-      const timstamp = Number(value);
-      output.value=getTimeStr(timstamp);
-    } catch (err) {
-    }
+      const timestamp = Number(value);
+      setOutputValue(timestamp);
+    } catch (err) {}
   } else {
     output.value='';
   }
+}
+
+
+/**
+ *
+ */
+function outputValueChange() {
+  value = output.value;
+  try {
+    const unixTimeZero = Date.parse(value);
+    if (!Number.isNaN(unixTimeZero)) {
+      input.value = unixTimeZero;
+    }
+  } catch (err) {}
 }
 
 /**
@@ -84,6 +105,10 @@ function getTimeStr(timestamp) {
 
 document.onkeyup = keyUp;
 input = document.getElementById('input');
-input.onfocus = onFocus();
 output = document.getElementById('output');
-input.oninput= valueChange;
+
+input.onfocus = onFocus();
+input.oninput= inputValueChange;
+
+output.oninput = outputValueChange;
+
