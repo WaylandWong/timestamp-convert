@@ -67,6 +67,7 @@ function outputValueChange() {
     const unixTimeZero = Date.parse(value);
     if (!Number.isNaN(unixTimeZero)) {
       input.value = unixTimeZero;
+      input.title = value;
     }
   } catch (err) {}
 }
