@@ -71,7 +71,7 @@ app.on('ready', () => {
   createWindow();
 
   // gloabl shortcut
-  globalShortcut.register('Alt+Space', () => {
+  globalShortcut.register('Shift+Command+Space', () => {
     if (!mainWindow.isVisible()) {
       mainWindow.show();
     }

@@ -1,6 +1,6 @@
 {
   "name": "timestamp-convert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Electron application convert timestamp to datetime loacle string",
   "repository": "github:WaylandWong/timestamp-convert",
   "main": "./src/main.js",

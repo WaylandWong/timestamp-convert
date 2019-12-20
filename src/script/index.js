@@ -1,11 +1,11 @@
 'use-strict';
 window.ipcRenderer.on('show', (event, message) => {
   if (document.activeElement.id != 'output') {
-    input.focus();
     if (input.value.length==0) {
       input.value = Date.now();
     }
-    select();
+    input.focus();
+    onFocus();
   }
 });
 
