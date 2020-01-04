@@ -10,12 +10,12 @@
 
 ## TODO
 
-* automatic starting
-* support ubuntu auto build
-* sign code officially
-* auto convert date string to timestamp
-* custom keyboard shortcut
-* more custom actions, like [alfred](https://www.alfredapp.com/)? maybe or not
+* [x] automatic starting
+* [ ] support ubuntu auto build
+* [ ] sign code officially
+* [x] auto convert date string to timestamp
+* [ ] custom keyboard shortcut
+* [ ] more custom actions, like [alfred](https://www.alfredapp.com/)? maybe or not
 
 ## DevDependencies
 
