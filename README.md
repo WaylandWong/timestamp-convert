@@ -7,7 +7,7 @@
 
 * [x] auto convert timestamp to date string
 * [x] convert date string to timestamp
-* [ ] generate uuid
+* [x] generate uuid
 * [x] call out with keyboard shortcut: `Shift+Command+Space`, like `spotlight` in macOs
 
 ## TODO
@@ -38,8 +38,8 @@
 
 * [x] 时间戳转为时间字符串
 * [x] 时间字符串转为时间戳
-* [ ] 生成uuid
-* [ ] 快捷键`Shift+Command+Space`呼出
+* [x] 生成uuid
+* [x] 快捷键`Shift+Command+Space`呼出
 
 ## TODO
 
