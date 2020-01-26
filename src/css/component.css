@@ -50,3 +50,11 @@ body {
 	z-index: 10;
 	width: 5%;
 }
+
+.input__field__input{
+	width: 35%;
+}
+
+.input__field__output{
+	width: 55%;
+}
