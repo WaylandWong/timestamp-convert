@@ -46,7 +46,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.1",
+    "electron": "^7.1.14",
     "electron-builder": "^22.1.0",
     "eslint": "^6.7.1"
   },
@@ -55,7 +55,6 @@
   },
   "homepage": "https://github.com/WaylandWong/timestamp-convert",
   "dependencies": {
-    "auto-launch": "^5.0.5",
     "update-electron-app": "^1.5.0",
     "uuid": "^3.3.3"
   }

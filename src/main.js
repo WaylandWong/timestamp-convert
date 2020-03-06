@@ -4,11 +4,10 @@ const path = require('path');
 const uuidv1 = require('uuid/v1');
 const uuidv4 = require('uuid/v4');
 
-var AutoLaunch = require('auto-launch');
-var autoLaunch = new AutoLaunch({
-    name: 'timestamp-convert',
-});
-autoLaunch.enable();
+app.setLoginItemSettings({
+    openAtLogin: true, // Boolean 在登录时启动应用
+    openAsHidden: true, // Boolean (可选) mac 表示以隐藏的方式启动应用。~~~~
+})
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
